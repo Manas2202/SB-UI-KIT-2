@@ -1,0 +1,333 @@
+.nav{
+	height: 100px;
+}
+
+a{
+	color: black;
+	margin-right: 10px;
+	margin-top: 30px;
+}
+
+a:hover{
+	color: black;
+	font-weight: bold;
+}
+
+#navBtn{
+	margin-right: 180px;
+	margin-top: 30px;
+	height: 40px;
+	width: 150px;
+	border-radius: 20px;
+}
+
+#cardList{
+	width: 700px;
+	height: 399px;
+	margin-right: 550px;
+	margin-top: 15px;
+}
+
+#col1Lands{
+	background-color: blue;
+	height: 399px;
+	margin-left: 14px;
+	margin-top: -9px;
+
+}
+
+#cardList2{
+	width: 400px;
+	height: 399px;
+	margin-right: 450px;
+	margin-top: 15px;
+}
+
+#cardList3{
+	width: 400px;
+	height: 250px;
+	margin-right: 300px;
+	margin-top: 15px;
+}
+
+.signUpForm{
+	background-color: white;
+	width: 500px;
+	height: 400px;
+	margin-left: 150px;
+	margin-top: 80px;
+	border-radius: 10px;
+}
+
+#bgId{
+	width: 1520px;
+	background-color: #0b29ad;
+    background-image: linear-gradient(225deg, #0b29fd 0%, #8237ad 69%);
+    clip-path: polygon(100% 0, 100% 90%, 0 100%, 0 0);
+}
+
+.portfolioSec{
+	height: 600px;
+}
+
+
+#portfolioImg{
+	width: 200px;
+	height: 200px;
+	border-radius: 100px;
+	margin-left: 645px;
+	margin-top: 120px;
+}
+
+
+#portfolioImg1{
+	width: 150px;
+	height: 150px;
+	border-radius: 100px;
+	margin-left: 95px;
+}
+
+
+/*Portfolio Section*/
+
+
+.box{
+  border: 1px solid black;
+  width: 350px;
+  height:300px;
+  margin: 10px;
+  position: relative;
+  opacity: 1;
+   overflow: hidden;
+}
+
+.box img{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+
+}
+
+.content{
+  position: absolute;
+  color: black;
+  top: -100%;
+  left: 40%;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: all 0.5s;
+   overflow: hidden;
+  
+}
+
+.box:hover{
+  opacity: .5;
+}
+.box img:hover{
+  opacity: .5;
+}
+.box:hover .content{
+  top:50%;
+  opacity: 1;
+
+}
+
+
+.box1{
+  border: 1px solid black;
+  width: 350px;
+  height: 500px;
+  margin: 10px;
+  position: relative;
+  opacity: 1;
+   overflow: hidden;
+}
+
+.box1 img{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+
+}
+
+.content{
+  position: absolute;
+  color: black;
+  top: -100%;
+  left: 40%;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: all 0.5s;
+   overflow: hidden;
+  
+}
+
+.box1:hover{
+  opacity: .5;
+}
+.box1 img:hover{
+  opacity: .5;
+}
+.box1:hover .content{
+  top:50%;
+  opacity: 1;
+
+}
+
+
+
+
+.box2{
+  border: 1px solid black;
+  width: 350px;
+  height:400px;
+  margin: 10px;
+  position: relative;
+  opacity: 1;
+  overflow: hidden;
+}
+
+.box2 img{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+
+}
+
+.content{
+  position: absolute;
+  color: black;
+  top: -100%;
+  left: 40%;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: all 0.5s;
+   overflow: hidden;
+  
+}
+
+.box2:hover{
+  opacity: .5;
+}
+.box2 img:hover{
+  opacity: .5;
+}
+.box2:hover .content{
+  top:50%;
+  opacity: 1;
+
+}
+
+
+.box3{
+  border: 1px solid black;
+  width: 350px;
+  height:350px;
+  margin: 10px;
+  position: relative;
+  opacity: 1;
+  overflow: hidden;
+}
+
+.box3 img{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+
+}
+
+.content{
+  position: absolute;
+  color: black;
+  top: -100%;
+  left: 40%;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: all 0.5s;
+   overflow: hidden;
+  
+}
+
+.box3:hover{
+  opacity: .5;
+}
+.box3 img:hover{
+  opacity: .5;
+}
+.box3:hover .content{
+  top:50%;
+  opacity: 1;
+
+}
+
+
+
+.box4{
+  border: 1px solid black;
+  width: 350px;
+  height:250px;
+  margin: 10px;
+  position: relative;
+  opacity: 1;
+  overflow: hidden;
+}
+
+.box4 img{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+
+}
+
+.content{
+  position: absolute;
+  color: black;
+  top: -100%;
+  left: 40%;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: all 0.5s;
+   overflow: hidden;
+  
+}
+
+.box4:hover{
+  opacity: .5;
+}
+.box4 img:hover{
+  opacity: .5;
+}
+.box4:hover .content{
+  top:50%;
+  opacity: 1;
+
+}
+
+
+
+/*After Portfolio*/
+
+#portfolioImg2{
+	width: 100px;
+	height: 100px;
+	border-radius: 100px;
+	margin-left: 150px;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+.left-card{
+	margin-left: 90px;
+	box-shadow: 2px 2px 6px 5px rgb(211, 205, 205);
+}
+
+.right-card{
+	margin-top: 0px;
+	margin-left: 20px;
+	box-shadow: 2px 2px 6px 5px rgb(211, 205, 205);
+}
